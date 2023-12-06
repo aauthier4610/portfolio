@@ -1,0 +1,84 @@
+
+    /* This file is auto-generated from a `scss` file with the same name */
+
+    .videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+
+
+    :root {
+  --color_1: rgba(255,255,255,1);
+  --color_2: rgba(100,100,100,1);
+  --color_3: rgba(51,51,51,1);
+  --color_4: rgba(147,147,147,1);
+  --color_5: rgba(164,45,205,1);
+  --color_6: rgba(12,206,173,1);
+  --color_7: rgba(67,206,247,1);
+  --color_8: rgba(196,0,255,1);
+}
+
+img[width][height] {
+  height: auto;
+}
+
+  body[data-page-alias="home"] #dm [data-show-on-page-only="home"] {
+    display: block !important;
+  }
+
+
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+    .font-size-48, .size-48, .size-48 > font { font-size: 48px !important; }.font-size-48, .size-48, .size-48 > font { font-size: 48px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.dmMobileBody .m-font-size-38, .dmMobileBody .m-size-38, .dmMobileBody .m-size-38 > font { font-size: 38px !important; }.dmMobileBody .m-font-size-38, .dmMobileBody .m-size-38, .dmMobileBody .m-size-38 > font { font-size: 38px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-16, .dmMobileBody .m-size-16, .dmMobileBody .m-size-16 > font { font-size: 16px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-19, .dmMobileBody .m-size-19, .dmMobileBody .m-size-19 > font { font-size: 19px !important; }.dmMobileBody .m-font-size-24, .dmMobileBody .m-size-24, .dmMobileBody .m-size-24 > font { font-size: 24px !important; }.dmMobileBody .m-font-size-24, .dmMobileBody .m-size-24, .dmMobileBody .m-size-24 > font { font-size: 24px !important; }.dmMobileBody .m-font-size-29, .dmMobileBody .m-size-29, .dmMobileBody .m-size-29 > font { font-size: 29px !important; }.dmMobileBody .m-font-size-24, .dmMobileBody .m-size-24, .dmMobileBody .m-size-24 > font { font-size: 24px !important; }
+
+
+
+
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+
+    @font-face {
+  font-family: "Roboto Slab Fallback";
+  src: local('Arial');
+  ascent-override: 97.7562%;
+  descent-override: 25.2818%;
+  size-adjust: 107.1903%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Poppins Fallback";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}
