@@ -4,11 +4,11 @@
       class="">
 <head>
 <script type="text/javascript">
-    window._currentDevice = 'mobile';
+    window._currentDevice = 'desktop';
     window.Parameters = window.Parameters || {
         AjaxContainer: 'div.dmBody',
         WrappingContainer: 'div.dmOuter',
-       
+     
         AccountUUID: 'b0d9cb62d0a14bfa8311043c377e1b42',
         SystemID: 'US_DIRECT_PRODUCTION',
         SiteAlias: '35926269',
@@ -67,8 +67,8 @@
         },
         NavigationAreaParams: {
             ShowBackToHomeOnInnerPages: true,
-            NavbarSize: 5,
-            
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://4610.dudasites.com/',
             BlockContainerSelector: '.dmBody',
             NavbarSelector: '#dmNav:has(a)',
             SubNavbarSelector: '#subnav_main'
@@ -85,11 +85,45 @@
     };
 
     window.Parameters.LayoutID = {};
-    window.Parameters.LayoutID[window._currentDevice] = 22;
+    window.Parameters.LayoutID[window._currentDevice] = 6;
     window.Parameters.LayoutVariationID = {};
     window.Parameters.LayoutVariationID[window._currentDevice] = 5;
 </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
 <script>
     function toHash(str) {
         var hash = 5381, i = str.length;
@@ -181,14 +215,14 @@
 
 
 
-<meta id="view" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Writing Examples
 </title>
 
 <!--Add favorites icons-->
 
-<link rel="apple-touch-icon" type="image/x-icon" href="https://irp.cdn-website.com/35926269/site_favicon_16_1700733937464.ico"/>
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/35926269/site_favicon_16_1700733937464.ico"/>
 
 <!-- End favorite icons -->
 
@@ -346,6 +380,44 @@
 }
 </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function -->
+
+
+
 <script id="d-js-load-css">
 /**
  * There are a few <link> tags with CSS resource in them that are preloaded in the page
@@ -444,8 +516,8 @@
 
 
 
-<!-- RT CSS Include d-css-runtime-mobile-one-package-structured-global-->
-<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/3975/_dm/s/rt/dist/css/d-css-runtime-mobile-one-package-structured-global.min.css" />
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/3975/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
 
 <!-- End of RT CSS Include -->
 
@@ -473,7 +545,7 @@
 
 
 <!-- Site CSS -->
-<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/35926269/files/35926269_0.min.css?v=26" id="siteGlobalCss" />
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/35926269/files/35926269_1.min.css?v=26" id="siteGlobalCss" />
 
 
 
@@ -581,7 +653,7 @@ body
 *#dm *.dmBody div.u_1296737407
 {
 	background-repeat:no-repeat !important;
-	background-image:url(https://lirp.cdn-website.com/35926269/dms3rep/multi/opt/home_gradient_bg_hero_image-082aab8d-640w.png) !important;
+	background-image:url(https://lirp.cdn-website.com/35926269/dms3rep/multi/opt/home_gradient_bg_hero_image-082aab8d-2880w.png) !important;
 	background-size:cover !important;
 }
 *#dm *.dmBody div.u_1337973103
@@ -596,11 +668,374 @@ body
 {
 	background-repeat:no-repeat !important;
 	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
 }
 *#dm *.d-page-1716942098 DIV#dmSlideRightNavRight
 {
 	background-repeat:no-repeat !important;
 	background-image:none !important;
+	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody div.u_1323301849
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:282px !important;
+	margin-top:10px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1511138006
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:94px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1210669954
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1156328729
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1325368613
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1561625020
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1978701665
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1935717219
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1267199643
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:282px !important;
+	margin-top:10px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1918712864
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:94px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1396733195
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1753658747
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1778082053
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:282px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1260223341
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1606029307
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1484300492
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 94px) !important;
+	position:relative !important;
+	height:106px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:94px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1204274510
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:31.5px !important;
+	padding-left:0px !important;
+	padding-bottom:31.5px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	max-width:100% !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1204274510 .videobgframe
+{
+	object-position:100% 0% !important;
+	object-fit:cover !important;
+}
+*#dm *.dmBody div.u_1415176291
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:15.5px !important;
+	padding-left:40px !important;
+	padding-bottom:15.5px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	max-width:100% !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1337973103
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1296737407
+{
+	background-position:100% 0 !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody div.u_1337973103
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1296737407
+{
+	background-position:100% 0 !important;
+	background-repeat:no-repeat !important;
 	background-size:cover !important;
 }
 
@@ -613,7 +1048,7 @@ body
 
 
 <style id="globalFontSizeStyle" type="text/css">
-    .font-size-32, .size-32, .size-32 > font { font-size: 32px !important; }.font-size-32, .size-32, .size-32 > font { font-size: 32px !important; }.dmMobileBody .m-font-size-26, .dmMobileBody .m-size-26, .dmMobileBody .m-size-26 > font { font-size: 26px !important; }.dmMobileBody .m-font-size-26, .dmMobileBody .m-size-26, .dmMobileBody .m-size-26 > font { font-size: 26px !important; }
+    .font-size-32, .size-32, .size-32 > font { font-size: 32px !important; }.font-size-32, .size-32, .size-32 > font { font-size: 32px !important; }
 </style>
 <style id="pageFontSizeStyle" type="text/css">
 </style>
@@ -709,7 +1144,7 @@ body
 
 
 
-<body id="dmRoot" data-page-alias="writing-examples"  class="dmRoot dmMobileBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac safariFix responsiveTablet " style="padding:0;margin:0;"
+<body id="dmRoot" data-page-alias="writing-examples"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet " style="padding:0;margin:0;"
       
       >
 
@@ -731,36 +1166,36 @@ body
 <!-- ========= Site Content ========= -->
 <div id="dm" class='dmwr'>
     
-    <div class="dm_wrapper mobileHamburgerLayout-var5 null mobileHamburgerLayout">
-         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="mobileHamburgerLayout" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations rows-1200 hamburger-reverse dmPageBody d-page-1716942098 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardMobile"> <div id="site_content"> <div class="p_hfcontainer"> <div id="mobile-hamburger-drawer" class="hamburger-drawer layout-drawer" layout="e86e38bc9a3b4296b63d93d0db7db907===header" data-origin="top" data-auto-height="true"> <div class="u_1882628182 dmRespRow middleDrawerRow" style="text-align: center;" id="1882628182"> <div class="dmRespColsWrapper" id="1449444933"> <div class="dmRespCol small-12 medium-12 large-12 empty-column" id="1243329830"></div> 
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations rows-1200 hamburger-reverse dmPageBody d-page-1716942098 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="SHARD2e9d510f4eb904e939c2be8efaf777e6e===header" data-origin="side-reverse"> <div class="u_1769594459 dmRespRow" style="text-align: center;" id="1769594459"> <div class="dmRespColsWrapper" id="1765910605"> <div class="u_1076555939 dmRespCol small-12 medium-12 large-12 empty-column" id="1076555939"></div> 
 </div> 
 </div> 
- <div class="dmRespRow u_1130585348" style="text-align: center;" id="1130585348"> <div class="dmRespColsWrapper" id="1705438303"> <div class="u_1765808548 dmRespCol small-12 medium-12 large-12 content-removed" id="1765808548"> <nav class="u_1893163401 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HIDE" id="1893163401" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/main/main.html" class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Main" data-auto="page-text-style">Main<span class="icon icon-angle-down"></span> 
+ <div class="u_1007700715 dmRespRow middleDrawerRow" style="text-align: center;" id="1007700715"> <div class="dmRespColsWrapper" id="1330226631"> <div class="dmRespCol small-12 u_1523789810 medium-12 large-12" id="1523789810"> <nav class="u_1788481978 effect-float main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1788481978" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="main.html" class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Main" data-auto="page-text-style">Main<span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
 <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages"
-data-depth="0">
-<a href="/mobile/mobile-home/mobile-home.html" class="unifiednav__item    " target="" data-target-page-alias="">
-  <span class="nav-item-text " data-link-text="
-Home
-" data-auto="page-text-style">
-    Home<span class="icon icon-angle-down"></span>
-  </span>
-</a>
+                                data-depth="0">
+                                <a href="/index.html" class="unifiednav__item    " target="" data-target-page-alias="">
+                                  <span class="nav-item-text " data-link-text="
+       Home
+      " data-auto="page-text-style">
+                                    Home<span class="icon icon-angle-down"></span>
+                                  </span>
+                                </a>
  <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="http://www.google.com" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Skills" data-auto="page-text-style">Skills<span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
- <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/mobile/mobile-portfolio/mobile-portfolio.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Projects" data-auto="page-text-style">Projects<span class="icon icon-angle-down"></span> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="portfolio.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Projects" data-auto="page-text-style">Projects<span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
- <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/mobile/mobile-writing-examples/mobile-writing-examples.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Writing Examples" data-auto="page-text-style">Writing Examples<span class="icon icon-angle-down"></span> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="writing-examples" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Writing Examples" data-auto="page-text-style">Writing Examples<span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
- <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="github" data-auto="page-text-style">github<span class="icon icon-angle-down"></span> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="http://github.com" class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="github" data-auto="page-text-style">github<span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
@@ -769,14 +1204,60 @@ Home
 </div> 
 </div> 
 </div> 
- <div class="dmRespRow u_1262739731" style="text-align: center;" id="1262739731"> <div class="dmRespColsWrapper" id="1805638821"> <div class="dmRespCol small-12 medium-12 large-12 u_1949011971 empty-column" id="1949011971"></div> 
+ <div class="dmRespRow u_1729137567" style="text-align: center;" id="1729137567"> <div class="dmRespColsWrapper" id="1272051706"> <div class="u_1907924789 dmRespCol small-12 medium-12 large-12 empty-column" id="1907924789"></div> 
 </div> 
 </div> 
 </div> 
  <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
 </div> 
- <div class="site_content"> <div id="hamburger-header-container" class="hamburger-header-container p_hfcontainer"> <div id="mobile-hamburger-header" class="hamburger-header p_hfcontainer" layout="837ce1cb59c8431ea7fd0dcd9b0a381f===header" data-scrollable-target="body" data-scroll-responder-id="mobile-hamburger-header"> <div class="u_1093485784 dmRespRow dmDefaultListContentRow fullBleedChanged fullBleedMode" style="text-align:center" id="1093485784" mode="2"> <div class="dmRespColsWrapper" id="1742390053"> <div class="u_1828169392 dmRespCol medium-6 large-6 small-2 empty-column" id="1828169392"></div> 
- <div class="u_1562639736 dmRespCol medium-6 large-6 small-10 empty-column" id="1562639736"></div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1705692124 dmRespRow" style="text-align: center;" id="1705692124"> <div class="dmRespColsWrapper" id="1469942216"> <div class="dmRespCol small-12 u_1655486006 medium-12 large-12 empty-column" id="1655486006"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" layout="78f5c343822e4eb3aac27f4ad5d13812===header"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1779638299 dmRespRow dmDefaultListContentRow fullBleedChanged fullBleedMode" style="text-align:center" id="1779638299"> <div class="dmRespColsWrapper" id="1927180310"> <div class="u_1095623786 small-12 dmRespCol large-2 medium-2 empty-column" id="1095623786"></div> 
+ <div class="u_1993977697 dmRespCol small-12 large-9 medium-9" id="1993977697"> <span id="1176885980"></span> 
+ <nav class="u_1432758233 effect-none main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_5" layout-sub="submenu_horizontal_2" data-show-vertical-sub-items="HOVER" data-divider="SLASH" id="1432758233" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="main.html" class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Main" data-auto="page-text-style">Main<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Skills" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Skills" data-auto="page-text-style">Skills<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Projects" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Projects" data-auto="page-text-style">Projects<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#WritingExamples" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Writing Examples" data-auto="page-text-style">Writing Examples<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a class="unifiednav__item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="github" data-auto="page-text-style">github<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/paper" class="unifiednav__item    " target="" popup_target="paper" link_type="popup" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Contact" data-auto="page-text-style">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1712240751 dmRespCol small-12 large-1 medium-1" id="1712240751"> <span id="1059211107"></span> 
+ <div class="u_1491196301 align-center text-align-center dmSocialHub" id="1491196301" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="http://linkedin.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="opacity"></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
 </div> 
 </div> 
 </div> 
@@ -823,7 +1304,7 @@ Home
 </div> 
 </div> 
 </div> 
- <div class="u_1204274510 dmRespRow fullBleedChanged fullBleedMode hasExtraLayerOverlay relativePos" id="1204274510" data-video-bg="eyJzcmMiOiJodHRwczovL3ZpZC5jZG4td2Vic2l0ZS5jb20vbWQvcGV4ZWxzL3ZpZGVvcy9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LXYubXA0IiwiaWQiOiJodHRwczovL3ZpZC5jZG4td2Vic2l0ZS5jb20vbWQvcGV4ZWxzL3ZpZGVvcy9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LXYubXA0IiwicHJvdmlkZXIiOiJjZG4iLCJlbWJlZCI6Imh0dHBzOi8vdmlkLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvdmlkZW9zL2JpcmQtY29jb251dC10cmVlLWNyb3ctcHVscGxlLTYzOTE4Njktdi5tcDQiLCJyYXRpbyI6MC41MjUsInRodW1ibmFpbCI6Imh0dHBzOi8vaXJwLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvZG1zM3JlcC9tdWx0aS9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LnYyLjAwMDAwMDAuanBnIiwic3VwcG9ydEJnT25Nb2JpbGUiOnRydWUsInN1cHBvcnRCZ0xvb3AiOnRydWUsInBvc3RlciI6Imh0dHBzOi8vaXJwLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvZG1zM3JlcC9tdWx0aS9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LnYyLjAwMDAwMDAuanBnIn0=" data-video-bg-mobile="true" data-video-init="true"> <div class="videobgwrapper video-ssr" data-ratio="0.525"> <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" class="videobgframe" poster="https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/bird-coconut-tree-crow-pulple-6391869.v2.0000000-640w.jpg" src="https://vid.cdn-website.com/md/pexels/videos/bird-coconut-tree-crow-pulple-6391869-v.mp4" style="object-position: 50% 50%" id="videobgframe-1204274510"></video> 
+ <div class="u_1204274510 dmRespRow fullBleedChanged fullBleedMode hasExtraLayerOverlay relativePos" id="1204274510" data-video-bg="eyJzcmMiOiJodHRwczovL3ZpZC5jZG4td2Vic2l0ZS5jb20vbWQvcGV4ZWxzL3ZpZGVvcy9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LXYubXA0IiwiaWQiOiJodHRwczovL3ZpZC5jZG4td2Vic2l0ZS5jb20vbWQvcGV4ZWxzL3ZpZGVvcy9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LXYubXA0IiwicHJvdmlkZXIiOiJjZG4iLCJlbWJlZCI6Imh0dHBzOi8vdmlkLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvdmlkZW9zL2JpcmQtY29jb251dC10cmVlLWNyb3ctcHVscGxlLTYzOTE4Njktdi5tcDQiLCJyYXRpbyI6MC41MjUsInRodW1ibmFpbCI6Imh0dHBzOi8vaXJwLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvZG1zM3JlcC9tdWx0aS9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LnYyLjAwMDAwMDAuanBnIiwic3VwcG9ydEJnT25Nb2JpbGUiOnRydWUsInN1cHBvcnRCZ0xvb3AiOnRydWUsInBvc3RlciI6Imh0dHBzOi8vaXJwLmNkbi13ZWJzaXRlLmNvbS9tZC9wZXhlbHMvZG1zM3JlcC9tdWx0aS9iaXJkLWNvY29udXQtdHJlZS1jcm93LXB1bHBsZS02MzkxODY5LnYyLjAwMDAwMDAuanBnIn0=" data-video-bg-mobile="true" data-video-init="true"> <div class="videobgwrapper video-ssr" data-ratio="0.525"> <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" class="videobgframe" poster="https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/bird-coconut-tree-crow-pulple-6391869.v2.0000000-1920w.jpg" src="https://vid.cdn-website.com/md/pexels/videos/bird-coconut-tree-crow-pulple-6391869-v.mp4" style="object-position: 50% 50%" id="videobgframe-1204274510"></video> 
 </div> 
  <div class="bgExtraLayerOverlay"></div> 
  <div class="dmRespColsWrapper" id="1475312404"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1232917840"></div> 
@@ -947,11 +1428,10 @@ Home
 </div> 
 </div> 
 </div> 
- <div class="layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" role="button" aria-label="menu opener" tabindex="0"> <span class="hamburger__slice"></span> 
+ <div class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" role="button" aria-label="menu opener" tabindex="0"> <span class="hamburger__slice"></span> 
  <span class="hamburger__slice"></span> 
  <span class="hamburger__slice"></span> 
 </div> 
- <a class="dmBackToTop" id="dmBackToTop" aria-label="Scroll to top" href="#dmContent"></a> 
 </div> 
 </div> 
 </div> 
@@ -1026,7 +1506,7 @@ Home
 </script>
 <script type="text/javascript">
     window.popups =
-    [{"title":"Contact","url":"/paper","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"357.515625","overlayColor":"rgba(0, 0, 0, 0.5)","height":"363.484375","animation":"fadeIn"},"name":"paper"}]</script>
+    [{"title":"Contact","url":"/paper","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"721","overlayColor":"rgba(0, 0, 0, 0.5)","height":"332","animation":"fadeIn"},"name":"paper"}]</script>
 <script>
     window.cookiesNotificationMarkupPreview = 'null';
 </script>
@@ -1034,7 +1514,7 @@ Home
 <!-- HEAD RT JS Include -->
 <script id='d-js-params'>
     window.INSITE = window.INSITE || {};
-    window.INSITE.device = "mobile";
+    window.INSITE.device = "desktop";
     window.rtCommonProps = {};
     rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
     rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
@@ -1115,7 +1595,7 @@ Home
 	rtCommonProps["ecom.ecwid.solve.url.modifications"] = true;
 	rtCommonProps["ecom.ecwid.configOptions"] = true;
 </script>
-<script src="https://static.cdn-website.com/mnlt/production/3975/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-mobile.min.js"  id="d-js-core"></script>
+<script src="https://static.cdn-website.com/mnlt/production/3975/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
 <!-- End of HEAD RT JS Include -->
 <script src="https://static.cdn-website.com/mnlt/production/3975/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
 <script>jQuery.DM.updateWidthAndHeight();
