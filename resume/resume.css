@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(238, 238, 238);
+    margin: 15px;
+  }
+  
+ 
+
+  .top-section {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .top-section .name {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px 10px 5px 10px;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .personal-info-section {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1em;
+  }
+  
+  .personal-info-section .info {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    padding: 0px 20px;
+  }
+  
+  .info .fa {
+    margin-right: 7px;
+  }
+  
+  .section-title {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px 5px;
+    background: #e3e3e3;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    font-size: 15px;
+    margin: 25px 0px 15px 0px;
+    letter-spacing: 1px;
+  }
+  
+  .wrapper {
+    box-sizing:border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+  }
+  
+  .experience {
+    padding: 15px 5px;
+  }
+  
+  .experience-info {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  
+  .position-title {
+    font-weight: 600;
+  }
+  
+  .from-to {
+    font-weight: 600;
+    color: #888;
+  }
+  
+  
+  
