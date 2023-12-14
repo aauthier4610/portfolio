@@ -61,3 +61,40 @@
   margin-bottom:8px !important;
   padding-right:0 !important;
   min-width:25px !important}
+
+  /* ADD CUSTOM CSS TO THE PAGE - THIS AFFECTS ALL DEVICES */
+*#dm *.dmBody a.span.textonly{
+color:rgb(255,255,255) !important}
+*#dm *.dmBody div.dmPopupInner{
+background-color:rgb(255,255,255) !important;
+border-style:solid !important;
+border-width:0 !important;
+-webkit-box-shadow:0 0 10px rgba(0,0,0,0.30) !important;
+box-shadow:0 0 10px rgba(0,0,0,0.30) !important;
+-moz-box-shadow:0 0 10px rgba(0,0,0,0.30) !important;
+border-radius:10px !important;
+-moz-border-radius:10px !important;
+-webkit-border-radius:10px !important;
+background-image:none !important;
+background-repeat:no-repeat !important;
+background-size:cover !important;
+background-position:top right !important}
+*#dm *.dmBody div.u_dm_content{
+background-image:none !important}
+*#dm *.dmBody nav.u_1144820115{
+color:black !important}
+*#dm *.dmBody div.u_1694205906{
+background-color:rgba(0,0,0,0) !important;
+background-repeat:no-repeat !important;
+background-image:url(https://irp.cdn-website.com/md/pexels/dms3rep/multi/pexels-photo-1486974.jpeg) !important;
+background-size:cover !important}
+*#dm *.dmBody *.allWrapper .dmPopupInner{
+border-radius:0 !important;
+-moz-border-radius:0 !important;
+-webkit-border-radius:0 !important;
+box-shadow:none !important;
+-moz-box-shadow:none !important;
+-webkit-box-shadow:none !important;
+background-color:rgba(0,0,0,1) !important}
+*#dm *.dmBody div.u_1699018429{
+background-color:rgba(0,0,0,0.73) !important}
